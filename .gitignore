@@ -10,6 +10,8 @@ outputs/*
 !outputs/.gitkeep
 intermediate/masks/*
 !intermediate/masks/.gitkeep
+intermediate/frames/*
+!intermediate/frames/.gitkeep
 intermediate/flow/*
 !intermediate/flow/.gitkeep
 weights/*
