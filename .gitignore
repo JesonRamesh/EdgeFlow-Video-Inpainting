@@ -1,0 +1,20 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore large media files
+inputs/*
+!inputs/.gitkeep
+outputs/*
+!outputs/.gitkeep
+intermediate/masks/*
+!intermediate/masks/.gitkeep
+intermediate/flow/*
+!intermediate/flow/.gitkeep
+weights/*
+!weights/.gitkeep
+
+# Ignore cloned repos if you don't want to track them in this repo
+third_party/*
+!third_party/.gitkeep
